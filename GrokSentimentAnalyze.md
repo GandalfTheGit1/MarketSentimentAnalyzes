@@ -32,7 +32,7 @@ output:
   style: terse, direct
   max_total_words: 220
   per_company: 6_lines_max
-  fields{sentiment_label,score,narratives,quotes,signals,impact,market_movement,last_3d_price_action}
+  fields{sentiment_label,score,narratives,quotes,signals,impact,market_movement,last_3d_price_action,narrative_velocity,volume_anomaly,confidence_score,short_term_bias}
 
 instructions:
   - Use posts, comments, market polls and invested positions where public.
@@ -49,7 +49,11 @@ response_template:
     - Narratives:
         1) <short label> — <2-8 word quote>
         2) <short label> — <2-8 word quote>
+    - Narrative velocity: <rising|falling|stable>
+    - Volume anomaly (vs 30d): <percentage>
+    - Confidence score: <0..1>
     - Market movement (3d): <up|down|flat> — <% change>
+    - Short-term bias: <upward_drift|downward_drift|consolidation>
     - Top signal: <signal_text> (impact: <low|med|high>)
     - Action: <watch|buy|sell|no action>
 
