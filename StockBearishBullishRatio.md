@@ -1,41 +1,45 @@
 task:
-  name: “Sentiment collection and breakdown for NVDA”
-  date_range: 2025-11-20 → 2025-11-28
-  target_company: NVDA
-  sources: [Reddit, X]
-  min_samples: 200
-  table_schema:
-    - id
-    - date
-    - platform
-    - user_id
-    - opinion_sentence
-    - sentiment_label
-    - reason_category
-    - reason_text
-  reason_categories: [Earnings, Product/Tech, Competition, Valuation, Macro, MarketPsychology, Risk, Other]
+  name: “Public sentiment analysis for NVDA (Nov 20-Nov 28 2025)”
+  target_ticker: “NVDA”
+  sources: [“Reddit”, “X”]
+  date_range: “2025-11-20 → 2025-11-28”
+  minimum_samples: 200
 
-samples[min_samples]{id,date,platform,user_id,opinion_sentence,sentiment_label,reason_category,reason_text}:
-  …  # Fill rows here
+schema:
+  - id
+  - date
+  - platform
+  - user_handle
+  - likes_count            # integer number of likes/up-votes on the post
+  - opinion_sentence        # 10-20 words
+  - sentiment_label         # one of [Bullish, Neutral, Bearish]
+  - reason_category         # one of [Earnings, Product/Tech, Competition, Valuation, Macro, MarketPsychology, Risk, Other]
+  - reason_text             # 25-40 words explaining why
+
+data:
+  samples[min_samples]{id,date,platform,user_handle,likes_count,opinion_sentence,sentiment_label,reason_category,reason_text}:
+    …  # collected entries
 
 analysis:
   sentiment_breakdown:
     bullish_percent:
     neutral_percent:
     bearish_percent:
-  key_reasons_bullish: [top5 categories with counts]
-  key_reasons_bearish: [top5 categories with counts]
-  common_misconceptions:
-    – “”
-  summary:
-    “”  # A concise judgment: bullish or bearish?
+  likes_statistics:
+    average_likes:
+    likes_standard_deviation:
+  top_reasons_bullish: [ {reason_category, count} … top 5 ]
+  top_reasons_bearish: [ {reason_category, count} … top 5 ]
+  common_misconceptions: [ “…” … ]
+  summary: “(Concise verdict: Bullish or Bearish and why)”
 
 instructions:
-  – Use only actual user posts (no made-up ones).
-  – Each opinion_sentence must be 10 to 20 words long.
-  – Sentiment_label must be exactly one of {Bullish, Neutral, Bearish}.
-  – reason_text must be 25 to 40 words long.
-  – After samples table, produce the analysis section.  
-  – If fewer than 200 valid samples exist, report actual number and proceed with available data.
+  – Pull actual posts from Reddit and X in the date range.
+  – Each opinion_sentence must be 10-20 words long.
+  – Each reason_text must be 25-40 words long.
+  – Include the actual likes_count for each post.
+  – After the data table, compute average_likes and standard deviation of likes across all samples.
+  – Output the full table first, then the analysis section.
+  – If fewer than 200 samples available, report actual count and proceed with available data.
 
 end_task
