@@ -7,18 +7,17 @@ companies[4]: Alphabet (Google), Synopsys, Apple, Broadcom
 
 sources[6]{platform,sample_count,notes}:
   X (Twitter),2000,high-reach posts + replies — must be from today
-  Reddit,1000,subreddits: r/stocks,r/investing,r/technology,r/semiconductors — restrict to posts/comments from today
+  Reddit,1000,subreddits: r/stocks,r/investing,r/technology,r/semiconductors — ONLY include posts and comments with timestamp == today (ignore anything older)
   Polymarket,500,markets & comments — restrict to markets updated today
   StockTwits,500,investor posts — today only
   HackerNews,200,threads & comments from today
-  NewsSocial,300,public headlines & comment threads — today only,300,public headlines & comment threads (high-engagement)
+  NewsSocial,300,public headlines & comment threads — ONLY items published today
 
 analysis:
-  timeframe: today_only
+  timeframe: today_only_strict
   language: english
   deduplicate_similar_posts: true
-  rank_by: recency,engagement,author_credibility
-  sample_goal: "large sample; prioritize highly engaged content but include long-tail voices": "large sample; prioritize highly engaged content but include long-tail voices"
+  rank_by: recency,engagement,author_credibisample_goal: "large sample; prioritize highly engaged content but include long-tail voices"voices": "large sample; prioritize highly engaged content but include long-tail voices"
 
 aggregation:
   sentiment_scale: -1..1
@@ -35,7 +34,14 @@ output:
   fields{sentiment_label,score,narratives,quotes,signals,impact,market_movement,last_3d_price_action,narrative_velocity,volume_anomaly,confidence_score,short_term_bias}
 
 instructions:
-  - Only include content published TODAY; ignore older posts, comments, markets, or threads.
+  - Enforce strict date filtering: ONLY include items whose posted_timestamp == today. Reject anything older.
+  - Use posts, comments, market polls and invested positions where public.
+  - For Reddit include both OP and top 3 comment threads by score, only if posted today.
+  - For X (Twitter) include original tweet + top 2 replies by engagement, only if posted today.
+  - Remove bot/spam clusters; aggregate similar narratives once.
+  - Include market_movement and last_3d_price_action retrieved from market data.
+  - If sample is insufficient for a company, say "insufficient sample".
+  - Keep final summary extremely brief: each company ≤6 lines; whole answer readable <3 minutes.
   - Use posts, comments, market polls and invested positions where public.
   - For Reddit include both OP and top 3 comment threads by score, from today.
   - For X (Twitter) include original tweet + top 2 replies by engagement, only from today.
