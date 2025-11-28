@@ -17,7 +17,8 @@ analysis:
   timeframe: today_only_strict
   language: english
   deduplicate_similar_posts: true
-  rank_by: recency,engagement,author_credibisample_goal: "large sample; prioritize highly engaged content but include long-tail voices"voices": "large sample; prioritize highly engaged content but include long-tail voices"
+  rank_by: recency,engagement,author_credibility
+  sample_goal: "large sample; prioritize highly engaged content but include long-tail voices": "large sample; prioritize highly engaged content but include long-tail voices"
 
 aggregation:
   sentiment_scale: -1..1
@@ -31,7 +32,7 @@ output:
   style: terse, direct
   max_total_words: 220
   per_company: 6_lines_max
-  fields{sentiment_label,score,narratives,quotes,signals,impact,market_movement,last_3d_price_action,narrative_velocity,volume_anomaly,confidence_score,short_term_bias}
+  fields{sentiment_label,score,bullish_vs_bearish_ratio,bull_bear_spread,sentiment_label,score,narratives,quotes,signals,impact,market_movement,last_3d_price_action,narrative_velocity,volume_anomaly,confidence_score,short_term_bias}
 
 instructions:
   - Enforce strict date filtering: ONLY include items whose posted_timestamp == today. Reject anything older.
@@ -53,6 +54,7 @@ instructions:
 response_template:
   - Company: <NAME>
     - Sentiment: <Bullish|Bearish|Neutral> (score: <-1..1>)
+    - Bull/Bear ratio: <ratio> — Spread: <percentage> (score: <-1..1>)
     - Narratives:
         1) <short label> — <2-8 word quote>
         2) <short label> — <2-8 word quote>
