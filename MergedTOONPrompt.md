@@ -3,7 +3,7 @@ task: "Investigate a publicly traded company's products and market context with 
 
 scope:
   - CompanyTicker: INSERT_TICKER_HERE
-  - Coverage: Steps 1, 2, and 6 from the master TOON specification (include their text verbatim in the section noted below).
+  - Coverage: Steps 1, 2, and 3 from the master TOON specification (include their text verbatim in the section noted below).
 
 outputFormat:
   - summary(maxWords:50 per section)
@@ -31,7 +31,7 @@ instructions:
   - Use Markdown headings and bullets suitable for direct inclusion in a report.
 
 sectionsToEmbedVerbatim:
-<<< INSERT THE TEXT OF SECTION 1, SECTION 2, AND SECTION 6 FROM THE MASTER TOON SPECIFICATION HERE >>>
+<<< INSERT THE TEXT OF SECTION 1, SECTION 2, AND SECTION 3 FROM THE MASTER TOON SPECIFICATION HERE >>>
 
 execution:
   1. Run the full investigation now with extreme rigor.
@@ -39,9 +39,9 @@ execution:
   3. Conclude with a single combined Markdown report containing:
       1. Section summaries (≤50 words each)
       2. Evidence cross-check tables (quotes + URLs)
-      3. Required Markdown tables from Section 1, 2, and 6
+      3. Required Markdown tables from Section 1, 2, and 3
       4. Detailed analyses (≤700 words each)
       5. Red Flags table
-      6. Pending tasks list
+      3. Pending tasks list
       7. Ready-to-use Markdown deliverables
 ```
