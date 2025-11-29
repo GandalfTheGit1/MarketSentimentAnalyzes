@@ -29,11 +29,10 @@ schema:
 
   - reason_category # one of [Earnings, Product/Tech, Competition, Valuation, Macro, MarketPsychology, Risk, Other]
 
-  - reason_text # 25-40 words explaining why
 
 data:
 
-  samples[min_samples]{id,date,platform,user_handle,likes_count,opinion_sentence,sentiment_label,reason_category,reason_text}:
+  samples[min_samples]{id,date,platform,user_handle,likes_count,opinion_sentence,sentiment_label,reason_category}:
 
     … # collected entries
 
