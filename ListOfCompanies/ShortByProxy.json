@@ -1,0 +1,26 @@
+[
+  {
+    "ticker": "INVX",
+    "country": "US",
+    "exchange": "NYSE",
+    "industry": "Energy Equipment and Services",
+    "marketCap": "$1,517.79M",
+    "pFcf": 10.4,
+    "sharesPercent": null,
+    "ebitInterest": 41.9,
+    "grossProfitPercent": 33,
+    "eps": 2.1,
+    "pb": 1.3,
+    "fcfMarginPercent": null,
+    "fcfYieldPercent": 9.6,
+    "freeCashFlow": "$124.72M",
+    "debtEquity": 0.1,
+    "debtRatio": 0.1,
+    "netProfitPercent": 16.7,
+    "revenueGrowthPercent": 63.4,
+    "netGrowthPercent": 141.7,
+    "pe": 9,
+    "returnOnEquityPercent": 21.4,
+    "currentRatio": 4.6
+  }
+]

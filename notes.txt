@@ -1,1 +1,3 @@
 The Ratio, there is no way to know if it actually works, creates names, and opinions.
+Sería genial si toda la información saliese en una app.
+Improve the prompt so it can know the price historically and the price now, it's highs and lows.
