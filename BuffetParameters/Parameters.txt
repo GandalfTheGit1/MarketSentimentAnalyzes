@@ -1,0 +1,341 @@
+Here are the **qualitative (text-based) criteria** that Buffett and Graham evaluate—things you must research manually by reading reports, articles, and using judgment:
+
+## 🏰 ECONOMIC MOAT / COMPETITIVE ADVANTAGE
+
+### **1. Type of Moat**
+Read to identify what protects the business from competition:
+
+**Brand Power:**
+- Do customers specifically ask for this brand by name?
+- Would customers pay more for this brand vs. generic?
+- Examples: Coca-Cola, Apple, Nike, Disney
+
+**Network Effects:**
+- Does the product become more valuable as more people use it?
+- Examples: Credit cards (Visa/Mastercard), Facebook, eBay, Airbnb
+
+**Cost Advantages:**
+- Can they produce cheaper than anyone else due to scale, location, or technology?
+- Examples: Costco, Geico, Walmart
+
+**Switching Costs:**
+- How painful/expensive is it for customers to switch to competitors?
+- Examples: Banks, enterprise software (Microsoft, Oracle), medical devices
+
+**Regulatory/Legal Barriers:**
+- Do licenses, patents, or regulations prevent competition?
+- Examples: Utilities, waste management, pharmaceutical patents
+
+**Intangible Assets:**
+- Patents, licenses, government approvals that can't be replicated
+- Examples: Drug patents, FCC licenses, mining rights
+
+### **2. Moat Width and Durability**
+- Is the moat getting **wider** (strengthening) or **narrower** (weakening)?
+- Will this advantage still exist in 10-20 years?
+- Can competitors easily copy this in 5 years?
+
+## 👔 MANAGEMENT QUALITY
+
+### **3. Integrity and Honesty**
+Read annual reports and letters to shareholders:
+- Does management admit mistakes openly?
+- Do they take responsibility for failures?
+- Do they explain bad news clearly or hide it in jargon?
+- Have there been any scandals, restatements, or SEC investigations?
+
+**Red flags:**
+- Frequent restatements of earnings
+- Overly optimistic projections that never materialize
+- Blaming external factors constantly
+- Legal/ethical issues
+
+### **4. Owner-Oriented Mindset**
+- Do they think like owners or hired managers?
+- Do they discuss long-term value creation or just quarterly earnings?
+- Do they refer to "shareholders" or "stakeholders"?
+- Do they make decisions you would make if you owned 100% of the company?
+
+### **5. Capital Allocation Skills**
+Read about their track record:
+- Do they make smart acquisitions or destroy value through bad M&A?
+- Do they buy back stock when undervalued (good) or overvalued (bad)?
+- Do they invest in high-return projects or waste cash on ego projects?
+- Do they pay dividends sensibly or hoard cash needlessly?
+
+**Look for:**
+- History of successful acquisitions
+- Disciplined buyback programs
+- Rational dividend policies
+- Avoiding empire-building
+
+### **6. Compensation Structure**
+Read proxy statements:
+- Is executive pay reasonable or excessive?
+- Is it tied to long-term performance or short-term metrics?
+- Do executives own significant stock (skin in the game)?
+- Are stock options diluting shareholders?
+
+**Red flags:**
+- Lavish perks (private jets, country club memberships)
+- Golden parachutes
+- Pay not tied to performance
+- Executives selling stock constantly
+
+### **7. Management Tenure and Stability**
+- Has leadership been stable or is there constant turnover?
+- Does CEO have a long successful track record?
+- Is there a clear succession plan?
+
+## 🏢 BUSINESS MODEL & INDUSTRY
+
+### **8. Business Simplicity**
+- Can you explain how the company makes money in 2-3 sentences?
+- Would a child understand the business?
+- Does it require deep technical expertise you don't have?
+
+**Buffett avoids:**
+- Complex financial engineering
+- Businesses he can't understand
+- Rapidly changing technology he can't predict
+
+### **9. Product/Service Necessity**
+- Is this a "need" or a "want"?
+- Will customers still buy during recessions?
+- Is demand growing, stable, or declining?
+
+**Categories:**
+- **Essential:** Food, utilities, healthcare, insurance
+- **Discretionary but sticky:** Entertainment with pricing power, luxury with brand moat
+- **Risky:** Fads, technology products with short life cycles
+
+### **10. Customer Concentration**
+Read 10-K filings:
+- Is revenue diversified or dependent on few customers?
+- If top 3 customers left, would company survive?
+
+**Red flag:** >50% revenue from one or two customers
+
+### **11. Supplier Dependence**
+- Is company dependent on a single supplier or commodity?
+- Can suppliers raise prices and squeeze margins?
+
+**Example:** Airlines depend on oil prices (bad). Software companies have minimal supplier risk (good).
+
+### **12. Industry Structure**
+Research the competitive landscape:
+- How many competitors exist?
+- Is it a fragmented market or oligopoly?
+- Are there high barriers to entry?
+- Is industry growing, mature, or declining?
+
+**Buffett prefers:**
+- Oligopolies (2-5 major players)
+- High barriers to entry
+- Rational competition (not price wars)
+- Growing or stable markets
+
+### **13. Technological Disruption Risk**
+- Could new technology make this business obsolete?
+- How quickly does technology change in this industry?
+
+**Examples:**
+- Low risk: Coca-Cola, railroads, utilities
+- High risk: Consumer electronics, retail, media
+
+### **14. Regulatory Risk**
+- Is the business subject to heavy regulation?
+- Could regulation change and destroy the business model?
+- Does it depend on government contracts?
+
+**Examples of regulatory risk:**
+- Healthcare (Obamacare changes)
+- Banking (Dodd-Frank)
+- Energy (environmental regulations)
+- Tobacco, gambling, alcohol
+
+## 📊 ACCOUNTING & TRANSPARENCY
+
+### **15. Accounting Conservatism**
+Read the notes to financial statements:
+- Does company use aggressive or conservative accounting?
+- Are they pushing revenue recognition boundaries?
+- How do they handle depreciation, reserves, and write-offs?
+
+**Red flags:**
+- Frequent "one-time" charges (should be rare)
+- Changing accounting methods
+- Revenue recognized before cash collected
+- Capitalizing expenses that should be expensed
+
+### **16. Footnotes and MD&A Quality**
+Read Management Discussion & Analysis section:
+- Is it clear and candid or full of jargon?
+- Do they discuss risks honestly?
+- Are footnotes transparent or hiding problems?
+
+**Buffett says:** "Read the footnotes"
+
+### **17. Off-Balance Sheet Items**
+- Are there hidden liabilities (leases, guarantees, contingencies)?
+- Does company use special purpose entities (Enron-style)?
+- Are pension obligations underfunded?
+
+## 🤝 CORPORATE GOVERNANCE
+
+### **18. Board Independence**
+- Is the board independent or full of cronies?
+- Do directors own significant stock?
+- Are there conflicts of interest?
+
+**Red flags:**
+- CEO is also chairman (lack of oversight)
+- Board members with business ties to company
+- Rubber-stamp boards
+
+### **19. Shareholder Rights**
+Read charter documents:
+- Are there poison pills or anti-takeover provisions?
+- Dual-class share structures (founder has super-voting rights)?
+- Do shareholders have voting rights?
+
+**Red flags:**
+- Staggered boards
+- Super-majority voting requirements
+- Management entrenchment provisions
+
+### **20. Related Party Transactions**
+- Does company do business with insiders?
+- Are they paying fair prices?
+- Are insiders self-dealing?
+
+**Red flag:** CEO sells services/products to the company he runs
+
+## 💼 SHAREHOLDER TREATMENT
+
+### **21. Communication Quality**
+Read shareholder letters:
+- Is management forthcoming and transparent?
+- Do they educate shareholders about the business?
+- Do they set realistic expectations?
+
+**Buffett's letters are the gold standard**—educational, honest, humble.
+
+### **22. Share Buyback Philosophy**
+- Do they buy back stock opportunistically when undervalued?
+- Or do they buy at any price to hit EPS targets?
+- Read management commentary on buybacks
+
+**Good:** "We bought back shares because they traded below intrinsic value"
+**Bad:** "We returned $X billion to shareholders" (without discussing price paid)
+
+### **23. Dividend Philosophy**
+- Is dividend policy rational and sustainable?
+- Do they increase dividends sensibly?
+- Or do they pay unsustainable dividends to prop up stock price?
+
+### **24. M&A Track Record**
+Research past acquisitions:
+- Do acquisitions create or destroy value?
+- Do they overpay for ego deals?
+- Do they integrate acquisitions well?
+
+**Red flags:**
+- Serial acquirers with declining returns
+- "Transformational" mega-deals
+- Frequent write-downs of acquired companies
+
+## 🌍 BUSINESS PREDICTABILITY
+
+### **25. Revenue Visibility**
+- Does company have recurring revenue (subscriptions, contracts)?
+- Or is every sale a one-off battle?
+
+**Predictable:** SaaS, insurance, utilities
+**Unpredictable:** Construction, consulting, project-based businesses
+
+### **26. Economic Sensitivity**
+- How does business perform in recessions?
+- Read historical performance during 2008-2009 financial crisis
+
+**Recession-resistant:** Consumer staples, healthcare, utilities
+**Cyclical:** Construction, luxury goods, discretionary retail
+
+### **27. Pricing Power Testing**
+Read earnings calls and reports:
+- Has company successfully raised prices without losing customers?
+- Do they discuss price increases in earnings calls?
+- Can they pass cost increases to customers?
+
+**Test:** If they raised prices 10% tomorrow, would customers leave?
+
+## 🎯 CORPORATE CULTURE
+
+### **28. Employee Treatment**
+Research company reviews (Glassdoor, etc.):
+- Do employees speak highly of management?
+- Low or high turnover?
+- Are employees engaged and motivated?
+
+**Buffett says:** Companies that treat employees well treat shareholders well
+
+### **29. Customer Satisfaction**
+- Are customers loyal and happy?
+- High or low customer churn?
+- Net Promoter Score (if disclosed)?
+
+### **30. Corporate Values**
+- Does company have strong ethical values?
+- Or have there been scandals (Wells Fargo fake accounts, VW emissions)?
+
+## 🔍 WHERE TO FIND THIS INFORMATION
+
+**Must-Read Documents:**
+1. **Annual Report (10-K)** - Full financial details, risks, management discussion
+2. **Proxy Statement (DEF 14A)** - Executive compensation, board structure, governance
+3. **Shareholder Letters** - Management philosophy and communication style
+4. **Quarterly Earnings Calls** - Listen to management tone, Q&A reveals a lot
+5. **Investor Presentations** - How they position themselves
+
+**Additional Resources:**
+- **News articles** - Track management decisions and company developments
+- **Industry reports** - Understand competitive dynamics
+- **Customer reviews** - Product quality and satisfaction
+- **Employee reviews (Glassdoor)** - Corporate culture
+- **Short seller reports** - Critical analysis (be skeptical but informed)
+- **Value investing blogs/forums** - Other investors' qualitative assessments
+
+## 🚨 CRITICAL QUALITATIVE RED FLAGS
+
+If you see these, walk away no matter how good the numbers:
+1. ❌ Management with history of fraud or ethical violations
+2. ❌ Serial acquirers destroying shareholder value
+3. ❌ Excessive executive compensation
+4. ❌ Business model you don't understand
+5. ❌ Constant "one-time" charges
+6. ❌ Management that never admits mistakes
+7. ❌ Industry in terminal decline
+8. ❌ Product easily disrupted by technology
+9. ❌ Customer concentration >50% with one client
+10. ❌ Accounting gimmicks or restatements
+
+## 📝 THE BUFFETT QUALITATIVE CHECKLIST
+
+Before buying, answer these:
+
+✅ **Do I understand how this business makes money?**
+✅ **Will this business exist and thrive in 10-20 years?**
+✅ **Does it have a durable competitive advantage?**
+✅ **Would I be happy owning this if the stock market closed for 10 years?**
+✅ **Do I trust and respect management?**
+✅ **Does management think like owners?**
+✅ **Is the company treating shareholders well?**
+✅ **Can they raise prices without losing customers?**
+✅ **Is demand growing or stable?**
+✅ **Are there major risks I don't understand?**
+
+If you can't confidently answer "yes" to most of these, the numbers don't matter—**don't invest**.
+
+---
+
+**Bottom line:** Numbers get you candidates. Qualitative analysis determines if you actually invest. Buffett spends 80% of his time on qualitative research and 20% on numbers. Most investors do the opposite—that's why they fail.
